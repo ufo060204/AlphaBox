@@ -298,7 +298,8 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
+// $primary:       $blue !default;
+$primary:       #7000ff !default; // *custom
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -312,7 +313,11 @@ $primary-100: #E9E2F3;
 $primary-200: #7000FF;
 $primary-300: #6e01F8;
 $primary-400: #380C7E;
+$primary-500: #1F0F39;
+$black: #000000;
+$primary-dark: #11002d;
 
+// 客製化顏色
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    $primary,
@@ -323,10 +328,13 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
+  "black":      $black,
   "primary-100":   $primary-100,
   "primary-200":   $primary-200,
   "primary-300":   $primary-300,
   "primary-400":   $primary-400,
+  "primary-500":   $primary-500,
+  "primary-dark":   $primary-dark,
 
 ) !default;
 // scss-docs-end theme-colors-map
@@ -381,6 +389,7 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
+// 客製化間距
 $spacer: 1rem !default;
 $spacers: (
   // 0: 0,
@@ -400,8 +409,12 @@ $spacers: (
   32: $spacer * 2,
   40: $spacer * 2.5,
   48: $spacer * 3,
+  54: $spacer * 3.375,
+  52: $spacer * 3.25,
   56: $spacer * 3.5,
   64: $spacer * 4,
+  80: $spacer * 5,
+  144: $spacer * 9,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -444,7 +457,8 @@ $stretched-link-z-index:                  1 !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+// $paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default; // *custom
 
 
 // Grid breakpoints
@@ -591,6 +605,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+// 客製化文字
 // $h1-font-size:                $font-size-base * 2.5 !default;
 // $h2-font-size:                $font-size-base * 2 !default;
 // $h3-font-size:                $font-size-base * 1.75 !default;
@@ -617,7 +632,8 @@ $font-sizes: (
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * .5 !default;
+// $headings-margin-bottom:      $spacer * .5 !default;
+$headings-margin-bottom:      0 !default; // *custom
 $headings-font-family:        null !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
