@@ -168,6 +168,7 @@ $utilities: map-merge(
     // Sizing utilities
     // scss-docs-start utils-sizing
     "width": (
+      responsive: true,
       property: width,
       class: w,
       values: (
@@ -647,8 +648,17 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
+    "letter-spacing": (
+      responsive: true,
+      property: letter-spacing,
+      class: lts,
+      values: (
+        64: 64px,
+      )
+    ),
     // scss-docs-end utils-visibility
   ),
   $utilities
 );
+
