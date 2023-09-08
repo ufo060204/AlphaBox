@@ -1,0 +1,43 @@
+@mixin radial-gradient(
+  $start-color: $primary-600,
+  $end-color: $black,
+) {
+  background-image: radial-gradient(50% 50% at 50% 50%, $start-color 0%, $end-color 100%);
+}
+
+.register-bg{
+   @include radial-gradient($primary-600,$black);
+}
+
+.register-input{
+    &::placeholder{
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.link{
+    text-decoration:underline;
+}
+
+
+.or{
+    &::before{
+        content: "";
+        position: absolute;
+        top:20px;
+        left: 0px;
+        display: inline-block;;
+        height: 1px;
+        width: 164px;
+        background-color:#828282;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        display: inline-block;;
+        height: 1px;
+        width: 164px;
+        background-color:#828282;
+    }
+}

@@ -315,6 +315,7 @@ $primary-200: #7000FF;
 $primary-300: #6e01F8;
 $primary-400: #380C7E;
 $primary-500: #1F0F39;
+$primary-600: #28085C;
 $black: #000000;
 $primary-dark: #11002d;
 
@@ -405,12 +406,12 @@ $spacers: (
   10: $spacer * .625,
   12: $spacer * .75,
   16: $spacer,
-    18: $spacer * 1.125,
+  18: $spacer * 1.125,
   20: $spacer * 1.25,
   24: $spacer * 1.5,
   32: $spacer * 2,
   36: $spacer * 2.25,
-    42: $spacer * 2.625,
+  42: $spacer * 2.625,
   40: $spacer * 2.5,
   48: $spacer * 3,
   54: $spacer * 3.375,
@@ -421,9 +422,9 @@ $spacers: (
   76: $spacer * 4.75,
   80: $spacer * 5,
   96: $spacer * 6,
-    120: $spacer * 7.5,
+  120: $spacer * 7.5,
   124: $spacer * 7.75,
-    136: $spacer *8.5,
+  136: $spacer *8.5,
   144: $spacer * 9,
   156: $spacer * 9.75,
   160: $spacer * 10,
@@ -643,6 +644,7 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
+<<<<<<< HEAD
   8: 8px,
   14: 14px,
   24: 24px,
@@ -650,6 +652,12 @@ $font-sizes: (
   80: 80px,
   128: 128px,
   400: 400px,
+=======
+  24 : 24px,
+  40 : 40px,
+  128: 128px,
+  400: 400px
+>>>>>>> upstream/dev
 ) !default;
 // scss-docs-end font-sizes
 
