@@ -201,7 +201,9 @@ $utilities: map-merge(
         50: 50%,
         75: 75%,
         100: 100%,
-        auto: auto
+        auto: auto,
+        351: 351px,
+        416: 416px,
       )
     ),
     "max-height": (
@@ -647,7 +649,16 @@ $utilities: map-merge(
         visible: visible,
         invisible: hidden,
       )
-    )
+    ),
+    "letter-spacing": (responsive: true,
+      property: letter-spacing,
+      class: lts,
+      values: (14: 14px,
+        16: 16px,
+        20: 20px,
+        40: 40px,
+        48: 48px,
+      )),
     // scss-docs-end utils-visibility
   ),
   $utilities

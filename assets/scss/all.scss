@@ -2,7 +2,6 @@
 @import './utils/variables';
 
 @import '../../node_modules/bootstrap/scss/maps';
-// @import '../../node_modules/bootstrap/scss/mixins';
 @import './utils/utilities';
 
 @import './pages/index.scss';
@@ -10,9 +9,11 @@
 @import "../../node_modules/bootstrap";
 
 // 我們自己客製化的檔案
-@import './pages/index.scss';
-@import './pages/about-us';
+@import './base/reboot';
 @import './base/fontStyle';
+@import './mixins/bg-gradient';
+@import './pages/about-us';
+@import './pages/index.scss';
 @import './base/base';
 @import './utils/custom-color';
 @import './layout/header.scss';
