@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEEK8_ALPHABOX+</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="register-bg pt-60 pb-80 pb-md-160">
+        <div class="container text-white mt-60">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <h2 class="fs-2 lts-64">註冊</h2>
+                </div>
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                    <img src="../assets/images/circle.png" alt="circle圖" class="home-banner-circle  d-block mb-24 mx-auto">
+                    <h3 class="font-shrikhand mb-32">ALPHABOX+</h3>
+                    <a href="#" class="btn text-white border border-white w-100 text-center rounded-pill mb-16"><img class="me-10" src="../assets/images/apple.png" alt="">Continue with Apple</a>
+                    <a href="#" class="btn text-white border border-white w-100 text-center rounded-pill"><img class="me-10" src="../assets/images/google.png" alt="">Continue with Google</a>
+                    <p class="py-24 or">or</p>
+                    <input class="py-8 px-16 w-100 mb-8 register-input" type="text"  placeholder="姓名">
+                    <input class="py-8 px-16 w-100 mb-8 register-input" type="text"  placeholder="EMAIL">
+                    <input class="py-8 px-16 w-100 mb-8 register-input" type="text"  placeholder="密碼">
+                    <div class="form-check me-auto mb-24"> 
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            我已仔細閱讀<a href="#" class="text-white link">相關條例</a>
+                        </label>
+                    </div>
+                    <a href="#" class="btn btn-primary-300 rounded-1 w-100 mb-8 py-8"><i class="material-symbols-outlined align-bottom me-4">point_scan</i>建立帳號</a>
+                    <p class="ms-auto">已有帳號嗎？前往<a href="#" class="text-white link">登入</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

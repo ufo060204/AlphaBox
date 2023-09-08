@@ -1,9 +1,11 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 
-@import "../node_modules/bootstrap/scss/maps";
-@import "../node_modules/bootstrap/scss/mixins";
+@import '../../node_modules/bootstrap/scss/maps';
+// @import '../../node_modules/bootstrap/scss/mixins';
 @import './utils/utilities';
+
+@import './pages/index.scss';
 
 @import "../../node_modules/bootstrap";
 
@@ -15,3 +17,5 @@
 @import './utils/custom-color';
 @import './layout/header.scss';
 @import './layout/footer.scss';
+// AWEI 客製化檔案
+@import './pages/registr';

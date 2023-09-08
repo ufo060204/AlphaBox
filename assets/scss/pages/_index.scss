@@ -1,7 +1,5 @@
 // 聯絡我們
 .contact{
-    padding-top: 144px;
-    padding-bottom: 144px;
     .title{
         font-size: 48px;
         letter-spacing: 16px;
@@ -23,11 +21,26 @@
 
 // 選角色
 .number{
-    font-size: 400px;
+    font-size: 128px;
     font-weight: 300;
+    @media (min-width:768px) {
+        font-size: 300px;
+    }
 }
 
 .line-arrow{
+    display: inline-block;
     width: 155px;
     height: 24px;
+    background-image: url("../images/line_end_arrow_notch.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.aiintro-card-content{
+    background-color: #000;
+    transition: 0.5s;
+    &:hover{
+        background-color:  #00000080;
+    }
 }

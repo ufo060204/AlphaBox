@@ -12,10 +12,10 @@
 
     <%- include('./layout/banner'); -%>
 <!-- 聯絡我們 -->
-<div class="contact bg-primary-500">
+<div class="contact bg-primary-500 pt-60 pb-80 py-md-144">
   <div class="container">
     <div class="row">
-      <div class="col-5 fw-bold ">
+      <div class="col-12 col-md-5 fw-bold ">
         <h3 class="fs-3 title text-white mb-20">聯絡我們</h3>
         <div class="d-flex mb-54">
           <div class="rounded-circle bg-white me-8"></div>
@@ -23,10 +23,13 @@
         </div>
         <p class="text-white">讓科技成為您的最佳夥伴<br>立即體驗神奇功能並享限時優惠！</p>
       </div>
-      <div class="col-7">
+      <div class="col-12 col-md-7">
         <img class="mb-16" src="../assets/images/emergency.png" alt="">
         <input class="form-control mb-16 rounded-0" type="email" placeholder="EMAIL">
-        <input class="form-control rounded-0 comments" type="text" placeholder="COMMENTS">
+        <input class="form-control rounded-0 comments mb-16" type="text" placeholder="COMMENTS">
+        <div class="d-flex justify-content-end">
+          <a class="btn btn-primary-300 w-100 w-md-50 rounded-1 ms-auto" href="#"><i class="material-symbols-outlined align-bottom me-4">point_scan</i>送出</a>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +55,59 @@
 </div> -->
 
 
-    <!-- <%- include('./layout/footer'); -%> -->
+  <ul class="d-flex flex-wrap list-unstyled text-white">
+    <li class="col-6 col-md-3 position-relative border-end border-1">
+      <img class="img-fluid" src="../assets/images/diane_vertical.png" alt="diane">
+      <div class="aiintro-card-content position-absolute start-0 end-0 top-0 bottom-0  d-flex flex-column px-12 px-md-40">
+        <span class="number font-saira text-center">1</span>
+        <p class="font-shrikhand fs-4 text-center mb-18 mb-md-80">Diane</p>
+        <p class="fw-bold">知識型</p>
+        <div class="d-flex flex-column flex-md-row mb-md-56">
+          <p class="w-100 w-md-75">學術領導/知識分享/智能問答</p>
+          <a class="line-arrow stretched-link" href="javascript:;"></a>
+        </div>
+      </div>
+    </li>
+    <li class="col-6 col-md-3 position-relative border-end border-1">
+      <img class="img-fluid" src="../assets/images/felix_vertical.png" alt="diane">
+      <div class="aiintro-card-content position-absolute start-0 end-0 top-0 bottom-0  d-flex flex-column px-12 px-md-40">
+        <span class="number font-saira text-center">2</span>
+        <p class="font-shrikhand fs-4 text-center mb-18 mb-md-80">Felix</p>
+        <p class="fw-bold">娛樂型</p>
+        <div class="d-flex flex-column flex-md-row mb-md-56">
+          <p class="w-100 w-md-75">音樂播放/語音互動/遊戲陪伴</p>
+          <a class="line-arrow stretched-link" href="javascript:;"></a>
+        </div>
+      </div>
+    </li>
+    <li class="col-6 col-md-3 position-relative border-end border-1">
+      <img class="img-fluid" src="../assets/images/karina_verticalgle.png" alt="diane">
+      <div class="aiintro-card-content position-absolute start-0 end-0 top-0 bottom-0  d-flex flex-column px-12 px-md-40">
+        <span class="number font-saira text-center">3</span>
+        <p class="font-shrikhand fs-4 text-center mb-18 mb-md-80">Karina</p>
+        <p class="fw-bold">生活型</p>
+        <div class="d-flex flex-column flex-md-row mb-md-56">
+          <p class="w-100 w-md-75">健康提醒/日程安排/智能家居</p>
+          <a class="line-arrow stretched-link" href="javascript:;"></a>
+        </div>
+      </div>
+    </li>
+    <li class="col-6 col-md-3 position-relative">
+      <img class="img-fluid" src="../assets/images/vito_vertical.png" alt="diane">
+      <div class="aiintro-card-content position-absolute start-0 end-0 top-0 bottom-0  d-flex flex-column px-12 px-md-40">
+        <span class="number font-saira text-center">4</span>
+        <p class="font-shrikhand fs-4 text-center mb-18 mb-md-80">Vito</p>
+        <p class="fw-bold">情感型</p>
+        <div class="d-flex flex-column flex-md-row mb-md-56">
+          <p class="w-100 w-md-75">情感識別/心情分析/心靈支持</p>
+          <a class="line-arrow stretched-link" href="javascript:;"></a>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+
+    <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
     <!-- Swiper JS -->
